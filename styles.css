@@ -5,27 +5,48 @@ body
 }
 .header
 {
-	display:flex;
+	
 	background-color:#011e29;
 	color:white;
-	justify-content:center;
+	text-align:center;
+	padding: 20px
 }
 .news
 {
 	display:flex;
 	justify-content:space-evenly;
 	flex-wrap:wrap;
+	margin:10px
 	
 	
 }
 .latest-news-section
 {
-		height:400px
+		padding:30px;
 		width:300px;
+		border-radius: 5px;
+		text-align:center;
+		background-color: white;
 }
 img
 {
 	height :130px;
-	width: 180px;
+	width: 240px;
 	
+}
+.pictorial-news-section
+{
+		padding:30px;
+		width:300px;
+		border-radius: 5px;
+		text-align:center;
+		background-color: white;
+}
+.main-news-section
+{
+		padding:30px;
+		width:300px;
+		border-radius: 5px;
+		text-align:center;
+		background-color: white;
 }
